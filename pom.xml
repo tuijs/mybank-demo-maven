@@ -19,9 +19,24 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.39</version>
 		</dependency>
-
 	</dependencies>
 	<build>
 		<finalName>ROOT</finalName>
 	</build>
+
+	<repositories>
+        <repository>
+            <id>nexus-cqrd</id>
+            <name>Team Nexus Repository</name>
+            <url>http://nexus.cqdc.com/content/groups/public</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus-cqrd</id>
+            <name>Team Nexus Repository</name>
+            <url>http://nexus.cqdc.com/content/groups/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
 </project>
